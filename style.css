@@ -1,3 +1,6 @@
+h1{
+	font-family: 'Roboto';
+} 
 .wrapper{
 	margin: auto;
 	width: 80%;
@@ -10,6 +13,7 @@ display: inline-block;
 	width: 190px;
 	height: 35px;
 	background: center no-repeat url(img/logo.svg);
+	font-family: pt_serif,arial,helvetica,sans-serif;
 } 
 .header{
 	display: flex;
@@ -22,4 +26,4 @@ display: inline-block;
 } 
 .menu__item{
   padding: 0 13px;
-}
+} 
