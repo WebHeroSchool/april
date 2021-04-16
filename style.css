@@ -51,10 +51,11 @@ display: inline-block;
 }
 .main{
   background-position: top right;
-	padding-right: 0 63% 100px;
+	padding: 0 63% 100px;
 	background: url(img/mainimg.svg);
 	background-repeat: no-repeat;
 	background-position: center right;
+  padding-left: 0;
 }
 .main__title{
 	font-family: 'PT Serif';
@@ -80,4 +81,15 @@ display: inline-block;
 	font-style: normal;
 	font-size: 14px;
   line-height: 16px;
+  padding: 14px 16px;
+  text-decoration: none;
+  background: blue;
+  color: white;
+  border-radius: 4px;
+}
+.main__button:hover{
+	opacity: .5;
+}
+.main__title-text_highlight{
+	background: #ECF3FF;
 }
