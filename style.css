@@ -93,3 +93,16 @@ display: inline-block;
 .main__title-text_highlight{
 	background: #ECF3FF;
 }
+@media(min-width: 1170px) {
+  .menu{
+  	display: none;
+}
+.header{
+	margin-bottom: 28px;
+ }
+.main{
+	padding: 74% 0 0;
+	background-size: 74%;
+	background-position: top center;
+ }
+}
