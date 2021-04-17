@@ -93,3 +93,28 @@ display: inline-block;
 .main__title-text_highlight{
 	background: #ECF3FF;
 }
+@media(max-width: 375px) {
+  .menu{
+  	display: none;
+}
+  .header{
+	  margin-bottom: 29px;
+ }
+  .main{
+  	text-align: center;
+	  padding: 74% 0 0;
+	  background-size: 69%;
+	  background-position: top center;
+ }
+  .main_title{
+  	margin-bottom: 30%
+  	font:700 bold 30%/39% pt_serif,arial,helvetica,sans-serif;
+  }
+  .main__description{
+  	margin-bottom: 25%;
+  	font:500 16%/19% Roboto,arial,helvetica,sans-serif;
+  }
+  .main__button{
+  	font:500 14%/16% Roboto,arial,helvetica,sans-serif;
+  }
+}
