@@ -60,9 +60,9 @@ display: inline-block;
 .main__title{
 	font-family: 'PT Serif';
 	font-weight: 700;
-	font-size: 50px;
+	font-size: 66px;
 	font-style: normal;
-  line-height: 66px;
+  line-height: 67px;
   margin-bottom: 40px;
   margin: 0 0 40px 0;
 }
@@ -70,8 +70,8 @@ display: inline-block;
 	font-family: 'Roboto';
 	font-weight: 400px;
 	font-style: normal;
-	font-size: 18px;
-	line-height: 21px;
+	font-size: 22px;
+	line-height: 25px;
 	margin-bottom: 41px;
 	margin: 0 0 41px 0;
 }
@@ -79,8 +79,8 @@ display: inline-block;
 	font-family: 'Roboto';
 	font-weight: 500px;
 	font-style: normal;
-	font-size: 14px;
-  line-height: 16px;
+	font-size: 18px;
+  line-height: 22px;
   padding: 14px 16px;
   text-decoration: none;
   background: blue;
@@ -93,4 +93,28 @@ display: inline-block;
 .main__title-text_highlight{
 	background: #ECF3FF;
 }
-
+@media(max-width: 1170px) {
+  .menu{
+  	display: none;
+}
+  .header{
+	  margin-bottom: 35px;
+ }
+  .main{
+  	text-align: center;
+	  padding: 69% 0 0;
+	  background-size: 69%;
+	  background-position: top center;
+ }
+  .main_title{
+  	margin-bottom: 40px;
+  	font: bold 30px/39px pt_serif,arial,helvetica,sans-serif;
+  }
+  .main__description{
+  	margin-bottom: 25px;
+  	font:500 16px/19px Roboto,arial,helvetica,sans-serif;
+  }
+  .main__button{
+  	font:500 14px/16px Roboto,arial,helvetica,sans-serif;
+  }
+}
