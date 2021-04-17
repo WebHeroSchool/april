@@ -51,7 +51,7 @@ display: inline-block;
 }
 .main{
   background-position: top right;
-	padding: 0 63% 100px;
+	padding: 150px 63% 100px 0;
 	background: url(img/mainimg.svg);
 	background-repeat: no-repeat;
 	background-position: center right;
@@ -59,10 +59,10 @@ display: inline-block;
 }
 .main__title{
 	font-family: 'PT Serif';
-	font-weight: 700;
+	font-weight: 700px;
 	font-size: 66px;
 	font-style: normal;
-  line-height: 67px;
+  line-height: 87px;
   margin-bottom: 40px;
   margin: 0 0 40px 0;
 }
@@ -92,29 +92,4 @@ display: inline-block;
 }
 .main__title-text_highlight{
 	background: #ECF3FF;
-}
-@media(max-width: 1170px) {
-  .menu{
-  	display: none;
-}
-  .header{
-	  margin-bottom: 35px;
- }
-  .main{
-  	text-align: center;
-	  padding: 69% 0 0;
-	  background-size: 69%;
-	  background-position: top center;
- }
-  .main_title{
-  	margin-bottom: 40px;
-  	font: bold 30px/39px pt_serif,arial,helvetica,sans-serif;
-  }
-  .main__description{
-  	margin-bottom: 25px;
-  	font:500 16px/19px Roboto,arial,helvetica,sans-serif;
-  }
-  .main__button{
-  	font:500 14px/16px Roboto,arial,helvetica,sans-serif;
-  }
 }
