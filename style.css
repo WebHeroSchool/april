@@ -93,7 +93,7 @@ display: inline-block;
 .main__title-text_highlight{
 	background: #ECF3FF;
 }
-@media(max-width: 1920px) {
+@media(max-width: 768px) {
   .menu{
   	display: none;
 }
