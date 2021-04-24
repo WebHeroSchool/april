@@ -12,9 +12,20 @@ body{
 	display: inline-block;
 }
 .logo{
-	margin-right: 63%;
+  margin-right: 63%;
+  padding: 40px 0;
+}
+.menu{
+
+	align-items: center;
 }
 .header{
 	display: flex;
 	justify-content: space-between;
+}
+.menu__item{
+  padding: 0 13px;
+}
+.menu__item: last-child{
+  padding-right: 0;
 }
