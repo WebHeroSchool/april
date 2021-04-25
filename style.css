@@ -118,3 +118,29 @@ body{
 .main__button:hover{
 	opacity:.5;
 }
+@media(min-width:375px){
+.menu{
+	display: none;
+}
+.header{
+  margin-bottom: 28px;
+}
+.main{
+	padding: 74% 0 0;
+	background-size:64%;
+	background-position: top center;
+	padding-right: 10%;
+	text-align: center;
+}
+.main__title{
+	font:  pt serif 30px/40px arial,helvetica,sans-serif;
+	margin-bottom: 44px;
+}
+.main__description{
+	font: 500 roboto 16px/19px pt_serif,arial,helvetica,sans-serif;
+	margin-bottom: 25px;
+}
+.main__button{
+	font: 500 roboto 14px/16px pt_serif,arial,helvetica,sans-serif;
+}
+}
