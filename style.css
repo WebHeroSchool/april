@@ -74,13 +74,17 @@ body{
 	background: #0056EC;
 }
 .main{
-	padding-right: 63%;
-	background: url(img/mainimg.svg);
-	margin-left: none;
-	background-repeat: no-repeat;
-	background-position: top right;
+	padding-right:57%;
+	background: url(img/mainimg.svg) no-repeat top right;
+	margin-bottom: 100%;
+	background-position: 560px;
+	background-size:  auto 460px;
+	padding-bottom: 50px;
+	max-width: 600px;
 }
-
+.main__title-text_highlight{
+	background: #ECF3FF;
+}
 .main__title{
 	font-family: PT Serif;
 	font-weight: 700;
@@ -91,9 +95,9 @@ body{
 }
 .main__description{
 	font-family: Roboto; 
-	font-weight: 400;
-	font-style:normal;
-	font-size:20px;
+	font-weight: 500;
+	font-style: normal;
+	font-size:22px;
   line-height:26px;
   margin: 0 0 41px 0;
 }
@@ -104,4 +108,13 @@ body{
 	font-size:18px;
   line-height:21px;
   margin-bottom: 41px;
+  padding: 14px 16px;
+  background-color: #0056EC;
+  color: #FFF;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: opacity .5s;
+}
+.main__button:hover{
+	opacity:.5;
 }
